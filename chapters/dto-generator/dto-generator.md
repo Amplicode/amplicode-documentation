@@ -1,6 +1,6 @@
 ---
 title: Генератор DTO
-weight: 0
+weight: 1
 ---
 
 ## Введение
