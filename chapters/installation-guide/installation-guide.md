@@ -5,7 +5,22 @@ weight: 0
 
 ## Amplicode для IntelliJ IDEA
 
-Amplicode для IntelliJ IDEA включает в себя поддержку экосистемы Spring и связанных технологий, а также предоставляет инструменты для работы с Docker и Docker Compose файлами.
+Amplicode для IntelliJ IDEA включает в себя поддержку экосистемы Spring и связанных технологий, а также предоставляет
+инструменты для работы с Docker и Docker Compose файлами.
+
+**Мы крайне рекомендуем ознакомиться со следующим видео, чтобы получить наиболее полное представление о возможностях 
+Amplicode, доступных в IntelliJ IDEA.**
+
+<div class="youtube">
+   <iframe 
+      width="560" 
+      height="315" 
+      src="https://www.youtube.com/embed/g5kzePtZ9FQ" 
+      title="YouTube video player" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen
+   ></iframe>
+</div>
 
 ### Поддерживаемые версии IntelliJ IDEA
 
