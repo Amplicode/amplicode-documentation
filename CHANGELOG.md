@@ -1,3 +1,35 @@
+# 2024.1.0-EAP – 2024-04-01
+
+## Spring Platform
+
+* Amplicode теперь поддерживает IntelliJ IDEA 2024.1 (ASPR-761)
+* Добавлено действие "Create Frontend Project" для создания React Admin приложения (ASPR-63)
+* Теперь можно создать CRUD `@RestController` в несколько кликов (ASPR-632)
+* Файлы, не поддерживаемые в IntelliJ IDEA Community Edition (.ts, .tsx, .js, .css, .scss и т. д.), теперь можно открывать в VS Code с помощью действия "Open in VS Code" от Amplicode (ASPR-68)
+* Добавлена расширенная поддержка аннотации `@PathVariable` (ASPR-85)
+* Улучшена генерация MapStruct метода для обновления JPA сущности с ассоциативными полями (ASPR-756)
+* Добавлена возможность создания JPA Specification Filter (ASPR-742)
+* Теперь поддерживается множественный выбор условий поиска в диалоге создания Spring Data @Query/Method (ASPR-855) 
+
+## Deployment Tools
+
+* Теперь в панели Amplicode Designer можно редактировать и исследовать доступные свойства для сервисов и других элементов файлов Docker Compose. Широкая поддержка добавлена для следующих сервисов:
+  * PostgreSQL (ADT-574)
+  * KeyCloak (ADT-596)
+  * MySQL, MariaDB (ADT-588)
+  * Oracle (ADT-591)
+  * MSSQL Server (ADT-590)
+  * MongoDB (ADT-589)
+* Теперь из панели Amplicode Designer можно создать кастомный сервис, а также элементы volume и network (ADT-476)
+* Улучшена панель Structure (_Cmd+7/Alt+7_) от IntelliJ IDEA для более наглядного отображения сервисов и других элементов файлов Docker Compose (ADT-552)
+* Добавлена возможность настройки pgAdmin для автоматического подключения к PostgreSQL в диалоге создания сервиса pgAdmin (ADT-586)
+* Теперь можно запускать/останавливать сервисы Docker Compose прямо из панели Amplicode Explorer, кликнув на них правой кнопкой мыши (ADT-608)
+* Для сервисов, предоставляющих HTTP/HTTPS порты, Amplicode предоставляет встроенную ссылку прямо в редакторе, ведущую к сервису (ADT-609)
+* Улучшено окно создания файла Docker Compose (ADT-633)
+* Добавлена инспекция, проверяющая существование указанных в сервисах volumes (ADT-581)
+
+Также было исправлено множество ошибок и исключений, возникавших в процессе работы Amplicode. Всего было закрыто 140+ тикетов.
+
 # 2023.2.3-private – 2024-02-28
 
 * Исправлено некорректное предложение по использованию `Specification` для не Spring Data JPA репозиториев (ASPR-665)
@@ -45,7 +77,7 @@
 * Улучшена поддержка нового UI IntelliJ IDEA (ASPR-124, ASPR-125, ASPR-128, ASPR-138, ASPR-427, ASPR-428)
 * Теперь классы, аннотированные `@FeignClient`, доступны для инжекции через Ghost Completion и Amplicode Designer (ASPR-491)
 
-## DevOps:
+## Deployment Tools:
 * Теперь можно создавать следующие docker compose сервисы используя интуитивно понятные диалоговые окна:
 	- Grafana (ADT-501)
 	- Keycloak (ADT-499)
