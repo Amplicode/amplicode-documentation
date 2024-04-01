@@ -74,13 +74,14 @@ Amplicode, пожалуйста, [свяжитесь с нами](#связат�
 
 1. Скачать архив с Amplicode для одной из [поддерживаемых версий IntelliJ IDEA](#поддерживаемые-версии-intellij-idea)
 
-   | IntelliJ IDEA | Amplicode                                                                                                                         |
-   |---------------|-----------------------------------------------------------------------------------------------------------------------------------|
-   | 2022.1.X      | Релиз запланирован на 01.05.2024                                                                                                  |
-   | 2022.2.X      | Релиз запланирован на 01.05.2024                                                                                                  |
-   | 2022.3.Х      | [2023.2.3-PRIVATE.zip](https://storage.yandexcloud.net/amplicode-marketplace/friday/Amplicode/amplicode-2023.2.3-223-PRIVATE.zip) |
-   | 2023.2.Х      | [2023.2.3-PRIVATE.zip](https://storage.yandexcloud.net/amplicode-marketplace/friday/Amplicode/amplicode-2023.2.3-232-PRIVATE.zip) |
-   | 2023.3.Х      | [2023.2.3-PRIVATE.zip](https://storage.yandexcloud.net/amplicode-marketplace/friday/Amplicode/amplicode-2023.2.3-233-PRIVATE.zip) |
+   | IntelliJ IDEA | Amplicode                                                                                                                 |
+   |---------------|---------------------------------------------------------------------------------------------------------------------------|
+   | 2022.1.X      | Релиз запланирован на 01.05.2024                                                                                          |
+   | 2022.2.X      | Релиз запланирован на 01.05.2024                                                                                          |
+   | 2022.3.Х      | [2024.1.0-EAP.zip](https://storage.yandexcloud.net/amplicode-marketplace/friday/Amplicode/amplicode-2024.1.0-223-EAP.zip) |
+   | 2023.2.Х      | [2024.1.0-EAP.zip](https://storage.yandexcloud.net/amplicode-marketplace/friday/Amplicode/amplicode-2024.1.0-232-EAP.zip) |
+   | 2023.3.Х      | [2024.1.0-EAP.zip](https://storage.yandexcloud.net/amplicode-marketplace/friday/Amplicode/amplicode-2024.1.0-233-EAP.zip) |
+   | 2024.1.X      | [2024.1.0-EAP.zip](https://storage.yandexcloud.net/amplicode-marketplace/friday/Amplicode/amplicode-2024.1.0-241-EAP.zip) |
 
 2. Открыть настройки IntelliJ IDEA и перейти в секцию **Plugins**
    ![settings-plugins.png](img/settings-plugins.png)
