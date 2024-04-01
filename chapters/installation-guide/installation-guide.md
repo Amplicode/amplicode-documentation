@@ -9,7 +9,7 @@ Amplicode для IntelliJ IDEA включает в себя поддержку �
 инструменты для работы с Docker и Docker Compose файлами.
 
 **Мы крайне рекомендуем ознакомиться со следующим видео, чтобы получить наиболее полное представление о возможностях
-Amplicode, доступных в IntelliJ IDEA.**
+Amplicode доступных в IntelliJ IDEA.**
 
 <div class="youtube">
    <iframe 
@@ -115,9 +115,66 @@ Amplicode предложит настроить проект:
 
 ## Amplicode для VS Code
 
-Amplicode для VS Code включает в себя поддержку React и связанных технологий. На данный момент Amplicode для VS Code
-находится в фазе активной разработки и в ближайшее время станет доступен в EAP (Early Access Program) формате. Если вы
-хотите попробовать Amplicode для VS Code уже сейчас, пожалуйста, [свяжитесь с нами](#связаться-с-командой-amplicode).
+**Мы крайне рекомендуем ознакомиться со следующим видео, чтобы получить наиболее полное представление о возможностях
+Amplicode доступных в VS Code.**
+
+[//]: # ( todo add live about amplicode fullstack)
+
+Amplicode предоставляет множество полезных расширений для VS Code, облегающих разработку frontend. Все перечисленные
+ниже расширения могут быть установлены в VS Code также, как и любые другие расширения. Подробную инструкцию по установке
+можно
+найти <a href="https://code.visualstudio.com/docs/editor/extension-marketplace#_install-an-extension" target="_blank" rel="noopener noreferrer">
+в документации VS Code</a>.
+
+### Amplicode Fullstack
+
+**Amplicode Fullstack** - это набор расширений для удобной разработки приложений на Spring Boot и React Admin. Мы
+рекомендуем использовать именно это расширение, если вы бóльшую часть времени разрабатываете в IntelliJ IDEA и хотите
+получить максимум удовольствия от работы над frontend частью вашего приложения в VS Code.
+
+Amplicode Fullstack включает в себя следующие расширения:
+
+- <a href="https://marketplace.visualstudio.com/items?itemName=Haulmont.amplicode" target="blank" rel="noopener noreferrer">
+  Amplicode Frontend</a>
+- <a href="https://marketplace.visualstudio.com/items?itemName=k--kato.intellij-idea-keybindings" target="blank" rel="noopener noreferrer">
+  IntelliJ IDEA Keybindings</a>
+- <a href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens" target="blank" rel="noopener noreferrer">
+  GitLens — Git supercharged</a>
+- <a href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint" target="blank" rel="noopener noreferrer">
+  ESLint</a>
+- <a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode" target="blank" rel="noopener noreferrer">
+  Prettier - Code formatter</a>
+- <a href="https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker" target="blank" rel="noopener noreferrer">
+  Code Spell Checker</a>
+- <a href="https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion" target="blank" rel="noopener noreferrer">
+  IntelliSense for CSS class names in HTML</a>
+- <a href="https://marketplace.visualstudio.com/items?itemName=sburg.vscode-javascript-booster" target="blank" rel="noopener noreferrer">
+  JavaScript Booster</a>
+- <a href="https://marketplace.visualstudio.com/items?itemName=burkeholland.simple-react-snippets" target="blank" rel="noopener noreferrer">
+  Simple React Snippets</a>
+- <a href="https://marketplace.visualstudio.com/items?itemName=planbcoding.vscode-react-refactor" target="blank" rel="noopener noreferrer">
+  VSCode React Refactor</a>
+
+После установки Amplicode Fullstack вы сможете найти в VS Code визуальные панели от Amplicode, входящие в состав
+расширения [Amplicode Frontend](#amplicode-frontend).
+
+### Amplicode Frontend
+
+**Amplicode Frontend** – одно из расширений включённых в состав набора [Amplicode Fullstack](#amplicode-fullstack).
+Amplicode Frontend помогает в разработке административного интерфейса с использованием React Admin, Storybook и
+TypeScript.
+
+Расширение предоставляет:
+
+- Интуитивно понятные визуальные компоненты для работы с <a href="https://marmelab.com/react-admin/" target="blank" rel="noopener noreferrer">React Admin</a> элементами, такими как data providers, resource names, fields, и т.д., благодаря панели Amplicode Explorer.
+    ![vs-code-amplicode-explorer.png](img/vs-code-amplicode-explorer.png)
+- Палитру для <a href="https://storybook.js.org/" target="blank" rel="noopener noreferrer">Storybook</a> с предварительным просмотром компонентов прямо в VS Code и их генерацию с учетом контекста.
+    ![vs-code-storybook-panel.png](img/vs-code-storybook-panel.png)
+- Интеллектуальный рефакторинг для TypeScript.
+    ![vs-code-type-script-refactoring.png](img/vs-code-type-script-refactoring.png)
+- Возможность лёгкого переключения между VS Code и IntelliJ IDEA (в случае
+  использования [Amplicode для IntelliJ IDEA](#amplicode-для-intellij-idea)), которая облегчит жизнь не только
+  frontend-, но и fullstack-разработчикам на <a href="https://spring.io/projects/spring-boot/" target="blank" rel="noopener noreferrer">Spring Boot</a> и <a href="https://react.dev/" target="blank" rel="noopener noreferrer">React</a>.
 
 ## Связаться с командой Amplicode
 
