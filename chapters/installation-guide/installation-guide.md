@@ -121,14 +121,53 @@ Amplicode доступных в VS Code.**
 [//]: # ( todo add live about amplicode fullstack)
 
 Amplicode предоставляет множество полезных расширений для VS Code, облегающих разработку frontend. Все перечисленные
-ниже расширения могут быть установлены в VS Code также, как и любые другие расширения. Подробную инструкцию по установке
+ниже расширения могут быть установлены в VS Code также, как и любые другие расширения. Подробную инструкцию по установке расширений
 можно
 найти <a href="https://code.visualstudio.com/docs/editor/extension-marketplace#_install-an-extension" target="_blank" rel="noopener noreferrer">
 в документации VS Code</a>.
 
-### Amplicode Fullstack
+### Установка расширения через VS Code Extensions Panel
 
-**Amplicode Fullstack** - это набор расширений для удобной разработки приложений на Spring Boot и React Admin. Мы
+Для установки расширения в VS Code воспользуйтесь панелью Extensions и введите в поиске **Amplicode**. После этого выберите расширение и нажмите кнопку **Install**.
+
+![vs-code-extensions-panel.png](img/vs-code-extensions-panel.png)
+
+### Ручная установка расширения через .VSIX
+
+Помимо установки расширения напрямую через VS Code Extensions Marketplace вы можете выполнить установку вручную, предварительно скачав vsix файл расширения. VSIX файл можно скачать с помощью браузера, воспользовавшись приведенными ниже ссылками. Откройте страницу расширения и нажмите Download Extension.
+
+| Расширение           | URL                                                                                       |
+|----------------------|-------------------------------------------------------------------------------------------|
+| Amplicode Frontend   | https://marketplace.visualstudio.com/items?itemName=haulmont-tech-ltd.amplicode-frontend  |
+| Amplicode Fullstack  | https://marketplace.visualstudio.com/items?itemName=haulmont-tech-ltd.amplicode-fullstack |
+
+Обратите внимание, что для установки Amplicode Fullstack в VSCodium вам придется установить все входящие в его состав расширения вручную.
+
+Скаченный ранее файл расширения можно установить, воспользовавшись пунктом меню **Install from VSIX...** в панели Extensions.
+
+![vs-code-extension-manual-install.png](img/vs-code-extension-manual-install.png)
+
+### Amplicode Frontend
+
+**Amplicode Frontend** – расширение VS Code для быстрой и комфортной разработки административного интерфейса с использованием React Admin, Storybook и TypeScript.
+
+Backend разработчикам мы рекомендуем установить набор [Amplicode Fullstack](#amplicode-fullstack-extension-pack), который включает в себя дополнительные расширения для более удобной разработки frontend и подключает привычные IntelliJ-like сочетания горячих клавиш.
+
+Расширение предоставляет:
+
+- Интуитивно понятные визуальные компоненты для работы с <a href="https://marmelab.com/react-admin/" target="blank" rel="noopener noreferrer">React Admin</a> элементами, такими как data providers, resource names, fields, и т.д., благодаря панели Amplicode Explorer.
+    ![vs-code-amplicode-explorer.png](img/vs-code-amplicode-explorer.png)
+- Палитру для <a href="https://storybook.js.org/" target="blank" rel="noopener noreferrer">Storybook</a> с предварительным просмотром компонентов прямо в VS Code и их генерацию с учетом контекста.
+    ![vs-code-storybook-panel.png](img/vs-code-storybook-panel.png)
+- Интеллектуальный рефакторинг для TypeScript.
+    ![vs-code-type-script-refactoring.png](img/vs-code-type-script-refactoring.png)
+- Возможность лёгкого переключения между VS Code и IntelliJ IDEA (в случае
+  использования [Amplicode для IntelliJ IDEA](#amplicode-для-intellij-idea)), которая облегчит жизнь не только
+  frontend-, но и fullstack-разработчикам на <a href="https://spring.io/projects/spring-boot/" target="blank" rel="noopener noreferrer">Spring Boot</a> и <a href="https://react.dev/" target="blank" rel="noopener noreferrer">React</a>.
+
+### Amplicode Fullstack Extension Pack
+
+**Amplicode Fullstack Extension Pack** - это набор расширений для удобной разработки приложений на Spring Boot и React Admin. Мы
 рекомендуем использовать именно это расширение, если вы бóльшую часть времени разрабатываете в IntelliJ IDEA и хотите
 получить максимум удовольствия от работы над frontend частью вашего приложения в VS Code.
 
@@ -157,24 +196,6 @@ Amplicode Fullstack включает в себя следующие расшир
 
 После установки Amplicode Fullstack вы сможете найти в VS Code визуальные панели от Amplicode, входящие в состав
 расширения [Amplicode Frontend](#amplicode-frontend).
-
-### Amplicode Frontend
-
-**Amplicode Frontend** – одно из расширений включённых в состав набора [Amplicode Fullstack](#amplicode-fullstack).
-Amplicode Frontend помогает в разработке административного интерфейса с использованием React Admin, Storybook и
-TypeScript.
-
-Расширение предоставляет:
-
-- Интуитивно понятные визуальные компоненты для работы с <a href="https://marmelab.com/react-admin/" target="blank" rel="noopener noreferrer">React Admin</a> элементами, такими как data providers, resource names, fields, и т.д., благодаря панели Amplicode Explorer.
-    ![vs-code-amplicode-explorer.png](img/vs-code-amplicode-explorer.png)
-- Палитру для <a href="https://storybook.js.org/" target="blank" rel="noopener noreferrer">Storybook</a> с предварительным просмотром компонентов прямо в VS Code и их генерацию с учетом контекста.
-    ![vs-code-storybook-panel.png](img/vs-code-storybook-panel.png)
-- Интеллектуальный рефакторинг для TypeScript.
-    ![vs-code-type-script-refactoring.png](img/vs-code-type-script-refactoring.png)
-- Возможность лёгкого переключения между VS Code и IntelliJ IDEA (в случае
-  использования [Amplicode для IntelliJ IDEA](#amplicode-для-intellij-idea)), которая облегчит жизнь не только
-  frontend-, но и fullstack-разработчикам на <a href="https://spring.io/projects/spring-boot/" target="blank" rel="noopener noreferrer">Spring Boot</a> и <a href="https://react.dev/" target="blank" rel="noopener noreferrer">React</a>.
 
 ## Связаться с командой Amplicode
 
