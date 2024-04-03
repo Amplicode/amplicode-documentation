@@ -121,10 +121,31 @@ Amplicode доступных в VS Code.**
 [//]: # ( todo add live about amplicode fullstack)
 
 Amplicode предоставляет множество полезных расширений для VS Code, облегающих разработку frontend. Все перечисленные
-ниже расширения могут быть установлены в VS Code также, как и любые другие расширения. Подробную инструкцию по установке
+ниже расширения могут быть установлены в VS Code также, как и любые другие расширения. Подробную инструкцию по установке расширений
 можно
 найти <a href="https://code.visualstudio.com/docs/editor/extension-marketplace#_install-an-extension" target="_blank" rel="noopener noreferrer">
 в документации VS Code</a>.
+
+### Установка расширения через VS Code Extensions Panel
+
+Для установки расширения в VS Code воспользуйтесь панелью Extensions и введите в поиске **Amplicode**. После этого выберите расширение и нажмите кнопку **Install**.
+
+![vs-code-extensions-panel.png](img/vs-code-extensions-panel.png)
+
+### Ручная установка расширения через .VSIX
+
+Помимо установки расширения напрямую через VS Code Extensions Marketplace вы можете выполнить установку вручную, предварительно скачав vsix файл расширения. VSIX файл можно скачать с помощью браузера, воспользовавшись приведенными ниже ссылками. Откройте страницу расширения и нажмите Download Extension.
+
+| Расширение           | URL                                                                                       |
+|----------------------|-------------------------------------------------------------------------------------------|
+| Amplicode Frontend   | https://marketplace.visualstudio.com/items?itemName=haulmont-tech-ltd.amplicode-frontend  |
+| Amplicode Fullstack  | https://marketplace.visualstudio.com/items?itemName=haulmont-tech-ltd.amplicode-fullstack |
+
+Обратите внимание, что для установки Amplicode Fullstack в VSCodium вам придется установить все входящие в его состав расширения вручную.
+
+Скаченный ранее файл расширения можно установить, воспользовавшись пунктом меню **Install from VSIX...** в панели Extensions.
+
+![vs-code-extension-manual-install.png](img/vs-code-extension-manual-install.png)
 
 ### Amplicode Frontend
 
