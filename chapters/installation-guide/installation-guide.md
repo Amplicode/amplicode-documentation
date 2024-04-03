@@ -15,7 +15,7 @@ Amplicode доступных в IntelliJ IDEA.**
    <iframe 
       width="560" 
       height="315" 
-      src="https://www.youtube.com/embed/g5kzePtZ9FQ" 
+      src="https://www.yout-ube.com/embed/g5kzePtZ9FQ" 
       title="YouTube video player" 
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
       allowfullscreen
