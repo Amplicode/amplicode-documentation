@@ -126,9 +126,27 @@ Amplicode предоставляет множество полезных рас�
 найти <a href="https://code.visualstudio.com/docs/editor/extension-marketplace#_install-an-extension" target="_blank" rel="noopener noreferrer">
 в документации VS Code</a>.
 
-### Amplicode Fullstack
+### Amplicode Frontend
 
-**Amplicode Fullstack** - это набор расширений для удобной разработки приложений на Spring Boot и React Admin. Мы
+**Amplicode Frontend** – расширение VS Code для быстрой и комфортной разработки административного интерфейса с использованием React Admin, Storybook и TypeScript.
+
+Backend разработчикам мы рекомендуем установить набор [Amplicode Fullstack](#amplicode-fullstack-extension-pack), который включает в себя дополнительные расширения для более удобной разработки frontend и подключает привычные IntelliJ-like сочетания горячих клавиш.
+
+Расширение предоставляет:
+
+- Интуитивно понятные визуальные компоненты для работы с <a href="https://marmelab.com/react-admin/" target="blank" rel="noopener noreferrer">React Admin</a> элементами, такими как data providers, resource names, fields, и т.д., благодаря панели Amplicode Explorer.
+    ![vs-code-amplicode-explorer.png](img/vs-code-amplicode-explorer.png)
+- Палитру для <a href="https://storybook.js.org/" target="blank" rel="noopener noreferrer">Storybook</a> с предварительным просмотром компонентов прямо в VS Code и их генерацию с учетом контекста.
+    ![vs-code-storybook-panel.png](img/vs-code-storybook-panel.png)
+- Интеллектуальный рефакторинг для TypeScript.
+    ![vs-code-type-script-refactoring.png](img/vs-code-type-script-refactoring.png)
+- Возможность лёгкого переключения между VS Code и IntelliJ IDEA (в случае
+  использования [Amplicode для IntelliJ IDEA](#amplicode-для-intellij-idea)), которая облегчит жизнь не только
+  frontend-, но и fullstack-разработчикам на <a href="https://spring.io/projects/spring-boot/" target="blank" rel="noopener noreferrer">Spring Boot</a> и <a href="https://react.dev/" target="blank" rel="noopener noreferrer">React</a>.
+
+### Amplicode Fullstack Extension Pack
+
+**Amplicode Fullstack Extension Pack** - это набор расширений для удобной разработки приложений на Spring Boot и React Admin. Мы
 рекомендуем использовать именно это расширение, если вы бóльшую часть времени разрабатываете в IntelliJ IDEA и хотите
 получить максимум удовольствия от работы над frontend частью вашего приложения в VS Code.
 
@@ -157,24 +175,6 @@ Amplicode Fullstack включает в себя следующие расшир
 
 После установки Amplicode Fullstack вы сможете найти в VS Code визуальные панели от Amplicode, входящие в состав
 расширения [Amplicode Frontend](#amplicode-frontend).
-
-### Amplicode Frontend
-
-**Amplicode Frontend** – одно из расширений включённых в состав набора [Amplicode Fullstack](#amplicode-fullstack).
-Amplicode Frontend помогает в разработке административного интерфейса с использованием React Admin, Storybook и
-TypeScript.
-
-Расширение предоставляет:
-
-- Интуитивно понятные визуальные компоненты для работы с <a href="https://marmelab.com/react-admin/" target="blank" rel="noopener noreferrer">React Admin</a> элементами, такими как data providers, resource names, fields, и т.д., благодаря панели Amplicode Explorer.
-    ![vs-code-amplicode-explorer.png](img/vs-code-amplicode-explorer.png)
-- Палитру для <a href="https://storybook.js.org/" target="blank" rel="noopener noreferrer">Storybook</a> с предварительным просмотром компонентов прямо в VS Code и их генерацию с учетом контекста.
-    ![vs-code-storybook-panel.png](img/vs-code-storybook-panel.png)
-- Интеллектуальный рефакторинг для TypeScript.
-    ![vs-code-type-script-refactoring.png](img/vs-code-type-script-refactoring.png)
-- Возможность лёгкого переключения между VS Code и IntelliJ IDEA (в случае
-  использования [Amplicode для IntelliJ IDEA](#amplicode-для-intellij-idea)), которая облегчит жизнь не только
-  frontend-, но и fullstack-разработчикам на <a href="https://spring.io/projects/spring-boot/" target="blank" rel="noopener noreferrer">Spring Boot</a> и <a href="https://react.dev/" target="blank" rel="noopener noreferrer">React</a>.
 
 ## Связаться с командой Amplicode
 
