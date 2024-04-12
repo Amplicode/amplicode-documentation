@@ -59,7 +59,7 @@ Backend разработчикам мы рекомендуем установи�
 - Интеллектуальный рефакторинг для TypeScript.
   ![vs-code-type-script-refactoring.png](img/vs-code-type-script-refactoring.png)
 - Возможность лёгкого переключения между VS Code и IntelliJ IDEA (в случае
-  использования [Amplicode для IntelliJ IDEA](#amplicode-для-intellij-idea)), которая облегчит жизнь не только
+  использования [Amplicode для IntelliJ IDEA](installation-guide-vs-code.md)), которая облегчит жизнь не только
   frontend-, но и fullstack-разработчикам на <a href="https://spring.io/projects/spring-boot/" target="blank" rel="noopener noreferrer">Spring Boot</a> и <a href="https://react.dev/" target="blank" rel="noopener noreferrer">React</a>.
 
 ### Amplicode Fullstack Extension Pack
@@ -70,7 +70,7 @@ Backend разработчикам мы рекомендуем установи�
 
 **Amplicode Fullstack** включает в себя следующие расширения:
 
-- <a href="https://marketplace.visualstudio.com/items?itemName=Haulmont.amplicode" target="blank" rel="noopener noreferrer">
+- <a href="https://marketplace.visualstudio.com/items?itemName=haulmont-tech-ltd.amplicode-frontend" target="blank" rel="noopener noreferrer">
   Amplicode Frontend</a>
 - <a href="https://marketplace.visualstudio.com/items?itemName=k--kato.intellij-idea-keybindings" target="blank" rel="noopener noreferrer">
   IntelliJ IDEA Keybindings</a>
