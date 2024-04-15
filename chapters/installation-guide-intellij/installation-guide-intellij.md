@@ -55,7 +55,7 @@ Amplicode, доступных в IntelliJ IDEA.**
    ![settings-plugins.png](img/ij-settings-plugins.png)
 3. Нажать на иконку шестерёнки и выбрать пункт **Install Plugin from Disk...**
    ![install-plugin-from-disk.png](img/ij-install-plugin-from-disk.png)
-4. Выбрать файл с архивом Amplicode и нажать **OK**
+4. Выбрать файл с архивом Amplicode (**распаковывать архив не нужно**) и нажать **OK**
 5. Перезапустить IntelliJ IDEA
    ![restart.png](img/ij-restart.png)
 
@@ -73,12 +73,18 @@ Amplicode предложит настроить проект:
 ![project-configuration.png](img/ij-project-configuration.png)
 
 Для успешной активации Amplicode **необходимо** в один из модулей проекта добавить один из доступных **Spring Data**
-модулей. **Опционально** можно улучшить любой из доступных модулей, подключив наиболее популярные стартеры/библиотеки, 
+модулей. Сделать это можно в окне **"Project Configuration"**. Для этого, выберите модуль и одно из значений в выпадающем списке для поля **"Spring Data"**.
+
+![ij-project-configuration-dropdown.png](img/ij-project-configuration-dropdown.png)
+
+**Опционально** можно улучшить любой из доступных модулей, подключив наиболее популярные стартеры/библиотеки, 
 которые помогут сделать разработку более комфортной и эффективной с расширенной поддержкой от Amplicode.
 
 После успешной активации вы увидите панель **Amplicode Explorer** (1), а также контекстно-зависимые панели **Editor Toolbar** (2) и **Amplicode Designer** (3) для поддерживаемых файлов.
 
 ![plugin-installed.png](img/ij-plugin-installed.png)
+
+Также Amplicode сгенерирует файл `amplicode.xml` в корневой директории проекта. В нём будут сохранены пользовательские настройки Amplicode.
 
 ## Поддерживаемые версии IntelliJ IDEA
 
