@@ -11,11 +11,11 @@
 
 Также были исправлены множество других багов и ошибок, возникающих в ходе работы Amplicode. Всего было закрыто более 35+ тикетов.
 
-Прямые ссылки на скачивание .zip файлов:
-– [IntelliJ IDEA 2022.3](https://storage.yandexcloud.net/amplicode-marketplace/friday/Amplicode/amplicode-2024.1.1-223-EAP.zip)
-– [IntelliJ IDEA 2023.2](https://storage.yandexcloud.net/amplicode-marketplace/friday/Amplicode/amplicode-2024.1.1-232-EAP.zip)
-– [IntelliJ IDEA 2023.3](https://storage.yandexcloud.net/amplicode-marketplace/friday/Amplicode/amplicode-2024.1.1-233-EAP.zip)
-– [IntelliJ IDEA 2024.1](https://storage.yandexcloud.net/amplicode-marketplace/friday/Amplicode/amplicode-2024.1.1-241-EAP.zip)
+Прямые ссылки на скачивание .zip файлов для:
+* [IntelliJ IDEA 2022.3](https://storage.yandexcloud.net/amplicode-marketplace/friday/Amplicode/amplicode-2024.1.1-223-EAP.zip)
+* [IntelliJ IDEA 2023.2](https://storage.yandexcloud.net/amplicode-marketplace/friday/Amplicode/amplicode-2024.1.1-232-EAP.zip)
+* [IntelliJ IDEA 2023.3](https://storage.yandexcloud.net/amplicode-marketplace/friday/Amplicode/amplicode-2024.1.1-233-EAP.zip)
+* [IntelliJ IDEA 2024.1](https://storage.yandexcloud.net/amplicode-marketplace/friday/Amplicode/amplicode-2024.1.1-241-EAP.zip)
 
 # 2024.1.0-EAP – 2024-04-01
 
