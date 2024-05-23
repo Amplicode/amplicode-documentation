@@ -9,16 +9,7 @@ Amplicode для IntelliJ IDEA включает в себя поддержку �
 **Мы крайне рекомендуем ознакомиться со следующим видео, чтобы получить наиболее полное представление о возможностях
 Amplicode, доступных в IntelliJ IDEA.**
 
-<div class="youtube">
-   <iframe 
-      width="560" 
-      height="315" 
-      src="https://www.youtube-nocookie.com/embed/7vIX8vbT3kM" 
-      title="YouTube video player" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-      allowfullscreen
-   ></iframe>
-</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7vIX8vbT3kM?si=MUrqBpKnT0DPpjFP&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Рекомендуемый способ установки
 
