@@ -1,3 +1,7 @@
+# Актуальный список нововведений
+
+Ознакомиться с актуальным списком нововведений можно тут: **[https://github.com/Amplicode/amplicode/README.md](https://github.com/Amplicode/amplicode/blob/main/README.md)**
+
 # 2024.1.1-EAP – 2024-04-17
 
 * Улучшен порядок сортировки полей для экрана создания DTO (ASPR-916)
