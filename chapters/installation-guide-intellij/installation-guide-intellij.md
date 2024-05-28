@@ -37,11 +37,11 @@ Amplicode, доступных в IntelliJ IDEA.**
 
    | IntelliJ IDEA | Amplicode                                                                                                                     |
    |---------------|-------------------------------------------------------------------------------------------------------------------------------|
-   | 2022.2.X      | Релиз запланирован на 01.06.2024                                                                                              |
-   | 2022.3.Х      | <a href="https://amplicode.ru/Amplicode/amplicode-2024.1.1-223-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
-   | 2023.2.Х      | <a href="https://amplicode.ru/Amplicode/amplicode-2024.1.1-232-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
-   | 2023.3.Х      | <a href="https://amplicode.ru/Amplicode/amplicode-2024.1.1-233-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
-   | 2024.1.X      | <a href="https://amplicode.ru/Amplicode/amplicode-2024.1.1-241-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
+   | 2022.2.X      | <a href="https://amplicode.ru/Amplicode/amplicode-2024.1.2-222-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
+   | 2022.3.Х      | <a href="https://amplicode.ru/Amplicode/amplicode-2024.1.2-223-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
+   | 2023.2.Х      | <a href="https://amplicode.ru/Amplicode/amplicode-2024.1.2-232-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
+   | 2023.3.Х      | <a href="https://amplicode.ru/Amplicode/amplicode-2024.1.2-233-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
+   | 2024.1.X      | <a href="https://amplicode.ru/Amplicode/amplicode-2024.1.2-241-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
 
 2. Открыть настройки IntelliJ IDEA и перейти в секцию **Plugins**
    ![settings-plugins.png](img/ij-settings-plugins.png)
@@ -50,33 +50,6 @@ Amplicode, доступных в IntelliJ IDEA.**
 4. Выбрать файл с архивом Amplicode (**распаковывать архив не нужно**) и нажать **OK**
 5. Перезапустить IntelliJ IDEA
    ![restart.png](img/ij-restart.png)
-
-## Активация Amplicode
-
-После успешной установки при первом открытии проекта на Spring Boot необходимо активировать Amplicode, нажав на
-Кнопку **Enable Amplicode**.
-
-![enable-amplicode.png](img/ij-enable-amplicode.png)
-
-Если к проекту не подключен ни один из
-модулей <a href="https://spring.io/projects/spring-data" target="_blank" rel="noopener noreferrer">Spring Data</a>,
-Amplicode предложит настроить проект:
-
-![project-configuration.png](img/ij-project-configuration.png)
-
-Для успешной активации Amplicode **необходимо** в один из модулей проекта добавить один из доступных **Spring Data**
-модулей. Сделать это можно в окне **"Project Configuration"**. Для этого, выберите модуль и одно из значений в выпадающем списке для поля **"Spring Data"**.
-
-![ij-project-configuration-dropdown.png](img/ij-project-configuration-dropdown.png)
-
-**Опционально** можно улучшить любой из доступных модулей, подключив наиболее популярные стартеры/библиотеки, 
-которые помогут сделать разработку более комфортной и эффективной с расширенной поддержкой от Amplicode.
-
-После успешной активации вы увидите панель **Amplicode Explorer** (1), а также контекстно-зависимые панели **Editor Toolbar** (2) и **Amplicode Designer** (3) для поддерживаемых файлов.
-
-![plugin-installed.png](img/ij-plugin-installed.png)
-
-Также Amplicode сгенерирует файл `amplicode.xml` в корневой директории проекта. В нём будут сохранены пользовательские настройки Amplicode.
 
 ## Поддерживаемые версии IntelliJ IDEA
 
@@ -88,10 +61,8 @@ IntelliJ IDEA и датами, до которых лицензионная по
 | Версия Amplicode | Версия IntelliJ IDEA                                         | Прекращение поддержки | Лицензионная политика |
 |------------------|--------------------------------------------------------------|-----------------------|-----------------------|
 | 2023.2.X-PRIVATE | 2022.3.X<br/>2023.2.X<br/>2023.3.X                           | 03.06.2024            | Бесплатно             |
-| 2024.1.X-EAP     | 2022.3.X<br/>2023.2.X<br/>2023.3.X<br/>2024.1.X              | 01.10.2024            | Бесплатно             |
-| 2024.2.X-EAP     | 2022.2.X<br/>2022.3.X<br/>2023.2.X<br/>2023.3.X<br/>2024.1.X | 12.01.2025            | Бесплатно             |
-
-__*_ – Мы планируем выпустить поддержку IntelliJ IDEA 2022.X для указанных версий Amplicode к 01.05.2024._
+| 2024.1.X-EAP     | 2022.2.X<br/>2022.3.X<br/>2023.2.X<br/>2023.3.X<br/>2024.1.X | 01.10.2024            | Бесплатно             |
+| 2024.2.X-EAP     | 2022.3.X<br/>2023.2.X<br/>2023.3.X<br/>2024.1.X              | 12.01.2025            | Бесплатно             |
 
 _**Прекращение поддержки**: начиная с указанной даты, все возможности Amplicode станут недоступны до момента
 обновления на более свежую версию. За месяц до указанной даты Amplicode начнёт напоминать о скором прекращении
