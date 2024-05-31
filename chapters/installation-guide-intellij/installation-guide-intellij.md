@@ -23,7 +23,7 @@ Amplicode, доступных в IntelliJ IDEA.**
    ![manage-plugin-repositories.png](img/ij-manage-plugin-repositories.png)
 3. В открывшемся окне вставить
    ```java
-   https://amplicode.ru/jetbrains-marketplace`
+   https://amplicode.ru/jetbrains-marketplace
    ```
    ![custom-pligin-repository.png](img/ij-custom-pligin-repository.png)
    И нажать **ОК**
