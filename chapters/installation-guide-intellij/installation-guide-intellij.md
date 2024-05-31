@@ -21,7 +21,10 @@ Amplicode, доступных в IntelliJ IDEA.**
    ![settings-plugins.png](img/ij-settings-plugins.png)
 2. Нажать на иконку шестерёнки и выбрать пункт **Manage Plugin Repositories**
    ![manage-plugin-repositories.png](img/ij-manage-plugin-repositories.png)
-3. В открывшемся окне вставить `https://amplicode.ru/jetbrains-marketplace`
+3. В открывшемся окне вставить
+   ```java
+   https://amplicode.ru/jetbrains-marketplace`
+   ```
    ![custom-pligin-repository.png](img/ij-custom-pligin-repository.png)
    И нажать **ОК**
 4. Ввести `Amplicode` в секции **Marketplace** и нажать **Install**
