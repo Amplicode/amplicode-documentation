@@ -9,9 +9,7 @@ Amplicode для IntelliJ IDEA включает в себя поддержку �
 **Мы крайне рекомендуем ознакомиться со следующим видео, чтобы получить наиболее полное представление о возможностях
 Amplicode, доступных в IntelliJ IDEA.**
 
-<div class="youtube">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7vIX8vbT3kM?si=MUrqBpKnT0DPpjFP&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+<iframe src="https://vk.com/video_ext.php?oid=-222549074&id=456239049&hd=2&autoplay=1" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
 
 ## Рекомендуемый способ установки
 
@@ -39,7 +37,7 @@ Amplicode, доступных в IntelliJ IDEA.**
 1. Скачать архив с Amplicode для одной из поддерживаемых версий IntelliJ IDEA:
 
    | IntelliJ IDEA | Amplicode                                                                                                                     |
-   |---------------|-------------------------------------------------------------------------------------------------------------------------------|
+      |---------------|-------------------------------------------------------------------------------------------------------------------------------|
    | 2022.2.X      | <a href="https://amplicode.ru/Amplicode/amplicode-2024.1.4-222-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
    | 2022.3.Х      | <a href="https://amplicode.ru/Amplicode/amplicode-2024.1.4-223-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
    | 2023.2.Х      | <a href="https://amplicode.ru/Amplicode/amplicode-2024.1.4-232-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
