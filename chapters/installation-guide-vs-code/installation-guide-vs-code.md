@@ -96,9 +96,9 @@ Backend разработчикам мы рекомендуем установи�
 
 ## Связаться с командой Amplicode
 
-В случае, если у вас возникли трудности на любом из этапов в процессе установки Amplicode или любые другие вопросы,
+В случае если у вас возникли трудности на любом из этапов в процессе установки Amplicode или любые другие вопросы,
 пожалуйста, напишите нам в:
 
-* <a href="https://t.me/amplicode" target="_blank" rel="noopener noreferrer">Telegram</a>
-* <a href="https://vk.com/amplicode" target="_blank" rel="noopener noreferrer">ВКонтакте</a>
+* <a href="https://t.me/amplicode_chat" target="_blank" rel="noopener noreferrer">Telegram-чат</a>
+* <a href="https://vk.me/join/bO2OWNz17GZs_xpynqla/QJLPH/ZRERxvDY=" target="_blank" rel="noopener noreferrer">VK-чат</a>
 * или на почту, через [форму на сайте](https://amplicode.io/contacts/)
