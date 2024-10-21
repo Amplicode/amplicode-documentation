@@ -6,16 +6,7 @@ weight: 1
 **Мы крайне рекомендуем ознакомиться со следующим видео, чтобы получить наиболее полное представление о возможностях
 Amplicode, доступных в VS Code.**
 
-<div class="youtube">
-   <iframe 
-      width="560" 
-      height="315"
-      src="https://www.youtube-nocookie.com/embed/jdOQGW6E1Ew" 
-      title="YouTube video player" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-      allowfullscreen
-   ></iframe>
-</div>
+<iframe width="720" height="405" src="https://rutube.ru/play/embed/e4d397f5611aede3251f1f54db959e5a/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 Amplicode предоставляет множество полезных расширений для VS Code, облегающих разработку frontend. Все перечисленные
 ниже расширения могут быть установлены в VS Code также, как и любые другие расширения. Подробную инструкцию по установке расширений
