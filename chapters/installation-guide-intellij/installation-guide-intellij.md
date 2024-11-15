@@ -38,9 +38,10 @@ Amplicode, доступных в IntelliJ IDEA.**
 
    | IntelliJ IDEA | Amplicode                                                                                                                     |
       |---------------|-------------------------------------------------------------------------------------------------------------------------------|
-   | 2024.2.X      | <a href="https://amplicode.ru/Amplicode/amplicode-2024.2.5-242-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
-   | 2024.1.X      | <a href="https://amplicode.ru/Amplicode/amplicode-2024.2.5-241-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
-   | 2023.3.Х      | <a href="https://amplicode.ru/Amplicode/amplicode-2024.2.5-233-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
+   | 2024.2.X      | <a href="https://amplicode.ru/Amplicode/amplicode-2024.2.6-243-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
+   | 2024.2.X      | <a href="https://amplicode.ru/Amplicode/amplicode-2024.2.6-242-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
+   | 2024.1.X      | <a href="https://amplicode.ru/Amplicode/amplicode-2024.2.6-241-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
+   | 2023.3.Х      | <a href="https://amplicode.ru/Amplicode/amplicode-2024.2.6-233-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
    | 2023.2.Х      | <a href="https://amplicode.ru/Amplicode/amplicode-2024.1.4-232-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
    | 2022.3.Х      | <a href="https://amplicode.ru/Amplicode/amplicode-2024.1.4-223-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
    | 2022.2.X      | <a href="https://amplicode.ru/Amplicode/amplicode-2024.1.4-222-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
