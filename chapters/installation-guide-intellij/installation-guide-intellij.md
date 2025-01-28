@@ -38,9 +38,9 @@ Amplicode, доступных в IntelliJ IDEA.**
 
    | IntelliJ IDEA | Amplicode                                                                                                                     |
       |---------------|-------------------------------------------------------------------------------------------------------------------------------|
-   | 2024.3.X      | <a href="https://amplicode.ru/Amplicode/amplicode-2024.3.1-243-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
-   | 2024.2.X      | <a href="https://amplicode.ru/Amplicode/amplicode-2024.3.1-242-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
-   | 2024.1.X      | <a href="https://amplicode.ru/Amplicode/amplicode-2024.3.1-241-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
+   | 2024.3.X      | <a href="https://amplicode.ru/Amplicode/amplicode-2024.3.2-243-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
+   | 2024.2.X      | <a href="https://amplicode.ru/Amplicode/amplicode-2024.3.2-242-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
+   | 2024.1.X      | <a href="https://amplicode.ru/Amplicode/amplicode-2024.3.2-241-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
    | 2023.3.Х      | <a href="https://amplicode.ru/Amplicode/amplicode-2024.2.6-233-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
    | 2023.2.Х      | <a href="https://amplicode.ru/Amplicode/amplicode-2024.1.5-232-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
    | 2022.3.Х      | <a href="https://amplicode.ru/Amplicode/amplicode-2024.1.5-223-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
@@ -56,10 +56,11 @@ Amplicode, доступных в IntelliJ IDEA.**
 
 ## Поддерживаемые версии IntelliJ IDEA
 
-В настоящее время **все возможности Amplicode доступны бесплатно**. Ниже вы можете найти таблицу с версиями Amplicode,
-IntelliJ IDEA и датами, до которых лицензионная политика для соответствующих версий Amplicode не изменится. В будущем мы
-можем изменить лицензионную политику, но обязуемся предупредить об этом **не менее чем за 3 месяца** до вступления
-изменений в силу.
+До 15-го апреля 2025 года **все возможности Amplicode доступны любому разработчику абсолютно бесплатно**. 
+Далее, часть функциональности Amplicode станет доступна по подписке.
+Подробнее [читайте в блоге](https://amplicode.ru/blog/amplicode-stanovitsya-platnym-i-ostaetsya-besplatnym/).
+Ниже вы можете найти таблицу с версиями Amplicode, IntelliJ IDEA и датами, до которых лицензионная политика для 
+соответствующих версий Amplicode не изменится.
 
 | Версия Amplicode | Версия IntelliJ IDEA                                         | Прекращение поддержки | Лицензионная политика |
 |------------------|--------------------------------------------------------------|-----------------------|-----------------------|
