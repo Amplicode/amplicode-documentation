@@ -25,7 +25,7 @@ Amplicode, доступных в OpenIDE.**
 ## Лицензионная политика Amplicode
 
 Подробнее про Amplicode PRO, триальную версию, специальные предложения и скидки читайте в разделе
-[Лицензионная политика Amplicode](/chapters/license-information/license-information.md).
+[Лицензионная политика Amplicode](https://amplicode.ru/documentation/license-information/).
 
 ## Связаться с командой Amplicode
 
