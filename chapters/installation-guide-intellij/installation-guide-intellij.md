@@ -71,8 +71,8 @@ Amplicode, пожалуйста, [свяжитесь с нами](#svyazatsya-s-
 
 | GigaIDE  | Amplicode                                                                                                                 |
 |----------|---------------------------------------------------------------------------------------------------------------------------|
-| 2024.3.X | <a href="https://amplicode.ru/Amplicode/amplicode-2025.1.2-242.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
-| 2024.2.X | <a href="https://amplicode.ru/Amplicode/amplicode-2025.1.2-242.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
+| 2024.3.X | <a href="https://amplicode.ru/Amplicode/amplicode-2025.1.3-242.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
+| 2024.2.X | <a href="https://amplicode.ru/Amplicode/amplicode-2025.1.3-242.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
 
 ## Лицензионная политика Amplicode
 
