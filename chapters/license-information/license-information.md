@@ -31,8 +31,10 @@ Amplicode PRO поднимает вашу продуктивность на но
 <a href="https://amplicode.ru/prices" target="_blank" rel="noopener noreferrer">приобрести лицензию</a> и продолжить
 пользоваться всеми возможностями Amplicode PRO.
 
-Если по каким-то причинам триальная версия Amplicode PRO не была активирована автоматически, вы можете сделать это вручную. Для этого:
-0. Откройте Spring-проект в вашей IDE 
+Если по каким-то причинам триальная версия Amplicode PRO не была активирована автоматически, вы можете сделать это
+вручную. Для этого:
+
+0. Откройте Spring-проект в вашей IDE
 1. Откройте панель **Amplicode Explorer**
 2. Выберите действие **Subscription Information** в верхней части панели
 3. Выберите **Пробный Период**
@@ -47,7 +49,9 @@ Amplicode PRO поднимает вашу продуктивность на но
 1. Откройте панель **Amplicode Explorer**
 2. Выберите действие **Subscription Information** в верхней части панели
 3. Выберите **Купленная Лицензия**
-4. Вставьте лицензионный ключ Amplicode PRO из <a href="https://store.amplicode.ru/account" target="_blank" rel="noopener noreferrer">личного кабинета</a> в текстовое поле **Лицензионный ключ**
+4. Вставьте лицензионный ключ Amplicode PRO
+   из <a href="https://store.amplicode.ru/account" target="_blank" rel="noopener noreferrer">личного кабинета</a> в
+   текстовое поле **Лицензионный ключ**
 5. Нажмите **Активировать**.
 
 ![trial-activation.png](img/key-activation.png)
