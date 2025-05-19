@@ -18,8 +18,9 @@ Amplicode PRO поднимает вашу продуктивность на но
 
 ## Получить информацию о лицензии Amplicode PRO
 
-1. Откройте панель Amplicode Explorer
-2. Выберите пункт верхнего меню "Subscription info"
+1. Откройте проект на Spring
+2. Откройте панель Amplicode Explorer
+3. Выберите пункт верхнего меню "Subscription info"
 
 ![subscription-info.png](img/subscription-info.png)
 
@@ -31,6 +32,7 @@ Amplicode PRO поднимает вашу продуктивность на но
 пользоваться всеми возможностями Amplicode PRO.
 
 Если по каким-то причинам триальная версия Amplicode PRO не была активирована автоматически, вы можете сделать это вручную. Для этого:
+0. Откройте Spring-проект в вашей IDE 
 1. Откройте панель **Amplicode Explorer**
 2. Выберите действие **Subscription Information** в верхней части панели
 3. Выберите **Пробный Период**
@@ -41,6 +43,7 @@ Amplicode PRO поднимает вашу продуктивность на но
 
 ## Активировать лицензию Amplicode PRO
 
+0. Откройте Spring-проект в вашей IDE
 1. Откройте панель **Amplicode Explorer**
 2. Выберите действие **Subscription Information** в верхней части панели
 3. Выберите **Купленная Лицензия**
