@@ -53,19 +53,15 @@ Amplicode, доступных в IntelliJ IDEA и GigaIDE.**
 
 ## Поддерживаемые версии IntelliJ IDEA
 
+Актуальная версия Amplicode поддерживает три последние мажорные версии IntelliJ IDEA, указанные в таблице. Если вы
+использовали Amplicode на более старой версии IntelliJ IDEA, обновите её. Поддержка устаревших версий была прекращена 20
+мая 2025 года.
+
 | IntelliJ IDEA | Amplicode                                                                                                                     |
 |---------------|-------------------------------------------------------------------------------------------------------------------------------|
 | 2025.1.X      | <a href="https://amplicode.ru/Amplicode/amplicode-2025.1.3-251.zip" target="_blank" rel="noopener noreferrer">Скачать</a>     |
 | 2024.3.X      | <a href="https://amplicode.ru/Amplicode/amplicode-2025.1.3-243.zip" target="_blank" rel="noopener noreferrer">Скачать</a>     |
 | 2024.2.X      | <a href="https://amplicode.ru/Amplicode/amplicode-2025.1.3-242.zip" target="_blank" rel="noopener noreferrer">Скачать</a>     |
-| 2024.1.X      | <a href="https://amplicode.ru/Amplicode/amplicode-2024.3.4-241-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
-| 2023.2.Х      | <a href="https://amplicode.ru/Amplicode/amplicode-2024.1.5-232-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
-| 2022.3.Х      | <a href="https://amplicode.ru/Amplicode/amplicode-2024.1.5-223-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
-| 2022.2.X      | <a href="https://amplicode.ru/Amplicode/amplicode-2024.1.5-222-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
-
-Если вы используете отличную от перечисленных выше версию IntelliJ IDEA и не можете обновиться на одну из поддерживаемых
-Amplicode, пожалуйста, [свяжитесь с нами](#svyazatsya-s-komandoi-amplicode), и мы постараемся найти выход из сложившейся
-ситуации!
 
 ## Поддерживаемые версии GigaIDE
 
