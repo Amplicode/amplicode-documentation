@@ -57,18 +57,18 @@ Amplicode, доступных в IntelliJ IDEA и GigaIDE.**
 использовали Amplicode на более старой версии IntelliJ IDEA, обновите её. Поддержка устаревших версий была прекращена 20
 мая 2025 года.
 
-| IntelliJ IDEA | Amplicode                                                                                                                     |
-|---------------|-------------------------------------------------------------------------------------------------------------------------------|
-| 2025.1.X      | <a href="https://amplicode.ru/Amplicode/amplicode-2025.1.3-251.zip" target="_blank" rel="noopener noreferrer">Скачать</a>     |
-| 2024.3.X      | <a href="https://amplicode.ru/Amplicode/amplicode-2025.1.3-243.zip" target="_blank" rel="noopener noreferrer">Скачать</a>     |
-| 2024.2.X      | <a href="https://amplicode.ru/Amplicode/amplicode-2025.1.3-242.zip" target="_blank" rel="noopener noreferrer">Скачать</a>     |
+| IntelliJ IDEA | Amplicode                                                                                                                 |
+|---------------|---------------------------------------------------------------------------------------------------------------------------|
+| 2025.1.X      | <a href="https://amplicode.ru/Amplicode/amplicode-2025.1.4-251.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
+| 2024.3.X      | <a href="https://amplicode.ru/Amplicode/amplicode-2025.1.4-243.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
+| 2024.2.X      | <a href="https://amplicode.ru/Amplicode/amplicode-2025.1.4-242.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
 
 ## Поддерживаемые версии GigaIDE
 
 | GigaIDE  | Amplicode                                                                                                                 |
 |----------|---------------------------------------------------------------------------------------------------------------------------|
-| 2024.3.X | <a href="https://amplicode.ru/Amplicode/amplicode-2025.1.3-242.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
-| 2024.2.X | <a href="https://amplicode.ru/Amplicode/amplicode-2025.1.3-242.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
+| 2024.3.X | <a href="https://amplicode.ru/Amplicode/amplicode-2025.1.4-242.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
+| 2024.2.X | <a href="https://amplicode.ru/Amplicode/amplicode-2025.1.4-242.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
 
 ## Лицензионная политика Amplicode
 
