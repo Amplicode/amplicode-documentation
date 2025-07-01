@@ -3,8 +3,8 @@ title: Amplicode для IntelliJ IDEA / GigaIDE
 weight: 1
 ---
 
-Amplicode для IntelliJ IDEA и GigaIDE включает в себя поддержку экосистемы Spring и связанных технологий, а также предоставляет
-инструменты для работы с Docker и Docker Compose файлами.
+Amplicode для IntelliJ IDEA и GigaIDE включает в себя поддержку экосистемы Spring и связанных технологий, а также
+предоставляет инструменты для работы с Docker и Docker Compose файлами.
 
 **Мы крайне рекомендуем ознакомиться со следующим видео, чтобы получить наиболее полное представление о возможностях
 Amplicode, доступных в IntelliJ IDEA и GigaIDE.**
@@ -42,26 +42,50 @@ Amplicode, доступных в IntelliJ IDEA и GigaIDE.**
 
 Для того чтобы установить Amplicode вручную, необходимо:
 
-1. Скачать архив с Amplicode для одной из поддерживаемых версий IntelliJ IDEA или GigaIDE (см. таблицы поддерживаемых версий ниже)
+1. Скачать архив с Amplicode для одной из поддерживаемых версий IntelliJ IDEA или GigaIDE (см. таблицы поддерживаемых
+   версий ниже)
 2. Открыть настройки IntelliJ IDEA или GigaIDE и перейти в секцию **Plugins**
-![settings-plugins.png](img/ij-settings-plugins.png)
+   ![settings-plugins.png](img/ij-settings-plugins.png)
 3. Нажать на иконку шестерёнки и выбрать пункт **Install Plugin from Disk...**
-![install-plugin-from-disk.png](img/ij-install-plugin-from-disk.png)
+   ![install-plugin-from-disk.png](img/ij-install-plugin-from-disk.png)
 4. Выбрать файл с архивом Amplicode (<u>**распаковывать архив не нужно**</u>) и нажать **OK**
 5. Перезапустить IDE
-![restart.png](img/ij-restart.png)
+   ![restart.png](img/ij-restart.png)
 
 ## Поддерживаемые версии IntelliJ IDEA
 
 Актуальная версия Amplicode поддерживает три последние мажорные версии IntelliJ IDEA, указанные в таблице. Если вы
-использовали Amplicode на более старой версии IntelliJ IDEA, обновите её. Поддержка устаревших версий была прекращена 20
-мая 2025 года.
+использовали Amplicode на более старой версии IntelliJ IDEA, мы рекомендуем обновить её. Новая функциональность
+Amplicode не будет доступна в устаревших версиях IDE.
 
 | IntelliJ IDEA | Amplicode                                                                                                                 |
 |---------------|---------------------------------------------------------------------------------------------------------------------------|
 | 2025.1.X      | <a href="https://amplicode.ru/Amplicode/amplicode-2025.1.4-251.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
 | 2024.3.X      | <a href="https://amplicode.ru/Amplicode/amplicode-2025.1.4-243.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
 | 2024.2.X      | <a href="https://amplicode.ru/Amplicode/amplicode-2025.1.4-242.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
+
+## Поддержка устаревших версий IntelliJ IDEA
+
+Акутальная версия Amplicode поддерживает
+только [три последних мажорных версии IntelliJ IDEA](#поддерживаемые-версии-intellij-idea). Расширять этот диапазон
+сложно — бэкпортинг фич на старые версии IDE требует много ресурсов, а большинство разработчиков обновляют среду
+довольно быстро.
+
+Важно: все новые фичи, вышедшие после Amplicode 2024.1, в устаревших IDE недоступны. Поэтому мы крайне рекомендуем вам
+рассмотреть переезд с устаревших версий IDE на актуальную.
+
+Если ваша команда пока не готова обновляться — свяжитесь с нами
+через <a href="https://t.me/amplicode_chat" target="_blank" rel="noopener noreferrer">Telegram-чат</a>
+или [форму на сайте](https://amplicode.io/contacts/), и мы поможем вам спланировать переезд.
+
+Для перечисленных ниже версий IDE остаются доступными для использования старые версии Amplicode.
+
+| Устаревшая версия IntelliJ IDEA | Устаревшая версия Amplicode (без новой функциональности)                                                                                      | Актуальная версия Amplicode                |
+|---------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
+| 2024.1.X                        | <a href="https://amplicode.ru/Amplicode/amplicode-2024.3.6-241-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать версию 2024.3.6</a> | Не поддерживается. Необходимо обновить IDE |
+| 2023.2.X                        | <a href="https://amplicode.ru/Amplicode/amplicode-2024.1.6-232-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать версию 2024.1.6</a> | Не поддерживается. Необходимо обновить IDE |
+| 2022.3.X                        | <a href="https://amplicode.ru/Amplicode/amplicode-2024.1.6-223-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать версию 2024.1.6</a> | Не поддерживается. Необходимо обновить IDE |
+| 2022.2.X                        | <a href="https://amplicode.ru/Amplicode/amplicode-2024.1.6-222-EAP.zip" target="_blank" rel="noopener noreferrer">Скачать версию 2024.1.6</a> | Не поддерживается. Необходимо обновить IDE |
 
 ## Поддерживаемые версии GigaIDE
 
