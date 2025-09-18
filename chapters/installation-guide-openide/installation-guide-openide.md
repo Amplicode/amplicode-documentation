@@ -1,6 +1,6 @@
 ---
 title: Amplicode для OpenIDE
-weight: 0
+weight: 1
 ---
 
 Amplicode для **<a href="https://openide.ru" target="_blank" rel="noopener noreferrer">OpenIDE</a>** включает

@@ -1,6 +1,6 @@
 ---
 title: Amplicode для IntelliJ IDEA / GigaIDE
-weight: 1
+weight: 0
 ---
 
 Amplicode для IntelliJ IDEA и GigaIDE включает в себя поддержку экосистемы Spring и связанных технологий, а также
