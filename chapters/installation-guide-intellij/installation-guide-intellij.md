@@ -60,9 +60,9 @@ Amplicode не будет доступна в устаревших версия�
 
 | IntelliJ IDEA                          | Amplicode                                                                                                                 |
 |----------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| 2025.3.X                               | <a href="https://amplicode.ru/Amplicode/amplicode-2025.3.0-253.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
-| 2025.2.X                               | <a href="https://amplicode.ru/Amplicode/amplicode-2025.3.0-252.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
-| 2025.1.X                               | <a href="https://amplicode.ru/Amplicode/amplicode-2025.3.0-251.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
+| 2025.3.X                               | <a href="https://amplicode.ru/Amplicode/amplicode-2025.3.1-253.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
+| 2025.2.X                               | <a href="https://amplicode.ru/Amplicode/amplicode-2025.3.1-252.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
+| 2025.1.X                               | <a href="https://amplicode.ru/Amplicode/amplicode-2025.3.1-251.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
 | 2024.3.X                               | <a href="https://amplicode.ru/Amplicode/amplicode-2025.2.3-243.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
 | 2024.2.X                               | <a href="https://amplicode.ru/Amplicode/amplicode-2025.2.3-242.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
 | 2024.1.X, 2023.2.X, 2022.3.X, 2022.2.X | [Поддержка устаревших версий IntelliJ IDEA](#поддержка-устаревших-версий-intellij-idea)                                   |
