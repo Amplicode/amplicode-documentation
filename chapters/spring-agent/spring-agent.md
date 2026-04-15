@@ -52,6 +52,7 @@ Spring Agent — это встроенный MCP Server в плагине Amplic
 
 1. В панели **Tools → Amplicode → MCP Server** найдите раздел **Manual Configuration**
 2. Нажмите **Copy JSON SSE Config**, **Copy YAML SSE Config** или **Copy TOML SSE Config** — конфигурация будет скопирована в буфер обмена в выбранном формате
+> Например, при копировании конфигурации в формате JSON появится сообщение _«JSON configuration copied to clipboard»_
 
 ![copy-config.png](img/copy-config.png)
 
@@ -381,6 +382,39 @@ mcpServers:
 
 ---
 
+## KiloCode
+
+**Поддерживает Auto-Configure: да**
+
+### Автоматически
+
+Используйте кнопку **Auto-Configure** в панели **Tools → Amplicode → MCP Server → KiloCode**.
+
+### Вручную
+
+Откройте файл конфигурации MCP для KiloCode (в выпадающем списке рядом с **Auto-Configure** → **Open Client Settings File**). Расположение файла:
+
+- **macOS**: `~/.kilocode/globalStorage/kilo code.kilo-code/settings/mcp_settings.json`
+- **Linux**: `~/.config/kilo/kilo.json`
+- **Windows**: `%USERPROFILE%\.config\kilo\kilo.json`
+
+Добавьте конфигурацию:
+
+```json
+{
+  "mcp": {
+    "amplicode": {
+      "url": "http://127.0.0.1:64442/stream",
+      "type": "remote"
+    }
+  }
+}
+```
+
+Сохраните файл и перезапустите KiloCode.
+
+---
+
 ## Cursor
 
 **Поддерживает Auto-Configure: нет**
@@ -406,35 +440,6 @@ mcpServers:
 Если файл `mcp.json` уже существует, добавьте `"amplicode"` в секцию `mcpServers`.
 
 После сохранения перезапустите Cursor или откройте **Cursor Settings → MCP** и нажмите **Refresh**.
-
----
-
-## Kilo Code
-
-**Поддерживает Auto-Configure: нет**
-
-Kilo Code — расширение для VS Code. Откройте настройки расширения одним из способов:
-
-**Через файл настроек VS Code** (`settings.json`):
-
-```json
-{
-  "kilocode.mcpServers": {
-    "amplicode": {
-      "type": "sse",
-      "url": "http://127.0.0.1:64442/sse"
-    }
-  }
-}
-```
-
-**Через интерфейс Kilo Code:**
-
-1. Откройте панель Kilo Code в боковой панели VS Code
-2. Перейдите в **Settings → MCP Servers**
-3. Нажмите **Add Server** и введите параметры подключения
-
-После добавления перезагрузите окно VS Code (**Developer: Reload Window**).
 
 ---
 
