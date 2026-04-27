@@ -1,5 +1,5 @@
 ---
-title: Spring Agent Toolkit — AI-агент, который пишет код на Spring.
+title: Spring Agent Toolkit — AI-агент, который пишет код на Spring
 weight: 5
 ---
 
