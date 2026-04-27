@@ -1,16 +1,14 @@
 ---
-title: Spring Agent Toolkit — подключение к AI-агентам
+title: Spring Agent Toolkit — AI-агент, который пишет код на Spring.
 weight: 5
 ---
-
-Spring Agent Toolkit — AI-агент, который пишет код на Spring.
 
 Amplicode даёт агенту набор специализированных инструментов для работы со Spring Boot проектами: код генерируется быстрее, соответствует best practices и обходится дешевле — если вы платите за токены.
 
 Spring Agent Toolkit включает два компонента: набор MCP-инструментов и SKILLS, написанные
 и проверенные экспертами по Spring. Подключается к любому совместимому агенту или IDE.
 
-<iframe width="720" height="405" src="https://rutube.ru/video/225693b81e69f8263ae4d4d87b17ca28/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe width="720" height="405" src="https://rutube.ru/play/embed/225693b81e69f8263ae4d4d87b17ca28/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 ## Установка AI-агента
 
@@ -56,7 +54,7 @@ Spring Agent Toolkit включает два компонента: набор MC
 
 Если всё совпадает — Spring Agent Toolkit готов к использованию! Подробный видео обзор Spring Agent Toolkit можно посмотреть в [следующем видео](https://t.me/amplicode/313):
 
-<iframe width="720" height="405" src="https://rutube.ru/video/225693b81e69f8263ae4d4d87b17ca28/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe width="720" height="405" src="https://rutube.ru/play/embed/225693b81e69f8263ae4d4d87b17ca28/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 ## Ручная установка Spring Skills и Amplicode MCP
 
