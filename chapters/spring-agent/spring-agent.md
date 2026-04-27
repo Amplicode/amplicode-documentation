@@ -1,11 +1,41 @@
 ---
 title: Spring Agent — подключение к AI-агентам
-weight: 0
+weight: 5
 ---
 
-Spring Agent — это встроенный MCP Server в плагине Amplicode для OpenIDE / IntelliJ IDEA / GigaIDE. Он предоставляет AI-агентам доступ к инструментам анализа и генерации кода для Spring-проектов непосредственно из вашей IDE.
+Spring Agent Toolkit — AI-агент, который пишет код на Spring.
 
-## Шаг 1. Включение MCP Server
+Amplicode даёт агенту набор специализированных инструментов для работы со Spring Boot проектами: код генерируется быстрее, соответствует best practices и обходится дешевле — если вы платите за токены.
+
+Spring Agent Toolkit включает два компонента: набор MCP-инструментов и SKILLS, написанные
+и проверенные экспертами по Spring. Подключается к любому совместимому агенту или IDE.
+
+## Установка AI-агента
+
+Для корректной работы Spring Agent Toolkit у вас должен быть установлен один из следующих AI-агентов: Claude Code, Codex, OpenCode, Qwen Code, Continue, VSCode, Windsurf, Cline, Copilot.
+
+Ознакомиться с инструкцией по установке можно в документации каждого из агентов.
+
+## Рекомендуемая установка Spring Skills и Amplicode MCP
+
+Описать тут как установить через Welcome Screen и сказать, что если вы сделали так, то достаточно просто проверить, что у вас установились Skills и включен MCP. Сказать где это сделать.
+
+### Установка Spring Skills
+
+Описываем
+
+### Проверка настройки Amplicode MCP
+
+Описываем
+
+## Ручная установка Spring Skills и Amplicode MCP
+
+
+### Установка Spring Skills через скрипт
+
+Описать тут как установить через скрипт, что проверить после и сказать, что далее нужно включить MCP Server для вашего AI-агента в настройках MCP Amplicode.
+
+### Включение Amplicode MCP Server
 
 Перед подключением любого AI-агента необходимо запустить MCP Server:
 
@@ -32,13 +62,13 @@ Spring Agent — это встроенный MCP Server в плагине Amplic
 
 Автоматическая конфигурация поддерживается для следующих клиентов:
 
-- [VSCode](#vscode)
 - [Claude Code](#claude-code)
-- [Windsurf](#windsurf)
 - [Codex](#codex)
-- [Continue](#continue)
-- [Qwen Code](#qwen-code)
 - [OpenCode](#opencode)
+- [Qwen Code](#qwen-code)
+- [Continue](#continue)
+- [VSCode](#vscode)
+- [Windsurf](#windsurf)
 - [Cline](#cline)
 - [Copilot](#copilot)
 
