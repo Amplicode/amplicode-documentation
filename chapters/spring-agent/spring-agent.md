@@ -10,6 +10,8 @@ Amplicode даёт агенту набор специализированных 
 Spring Agent Toolkit включает два компонента: набор MCP-инструментов и SKILLS, написанные
 и проверенные экспертами по Spring. Подключается к любому совместимому агенту или IDE.
 
+<iframe width="720" height="405" src="https://rutube.ru/video/225693b81e69f8263ae4d4d87b17ca28/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
 ## Установка AI-агента
 
 Для корректной работы Spring Agent Toolkit у вас должен быть установлен один из следующих AI-агентов: Claude Code, Codex, OpenCode, Qwen Code, Continue, VSCode, Windsurf, Cline, Copilot.
@@ -18,26 +20,125 @@ Spring Agent Toolkit включает два компонента: набор MC
 
 ## Рекомендуемая установка Spring Skills и Amplicode MCP
 
-Описать тут как установить через Welcome Screen и сказать, что если вы сделали так, то достаточно просто проверить, что у вас установились Skills и включен MCP. Сказать где это сделать.
+При запуске IntelliJ IDEA с плагином Amplicode автоматически открывается Welcome-экран Spring Agent Toolkit, если:
+
+- в системе обнаружен хотя бы один из поддерживаемых AI-агентов;
+- скилы для него ещё не установлены;
+- не стоит галочка **«Больше не показывать»** в правом нижнем углу экрана.
+
+![Welcome-экран Spring Agent Toolkit](img/welcome-screen.png)
 
 ### Установка Spring Skills
 
-Описываем
+1. На Welcome-экране нажмите кнопку **«Настроить Spring Agent»**.
+2. В появившемся диалоге подтвердите установку.
+3. Откроется консоль с логом установщика — дождитесь завершения. По итогу появится уведомление об успехе.
+
+В результате:
+
+- обнаруженные, но ещё не сконфигурированные MCP-клиенты настраиваются автоматически;
+- скилы скачиваются в `~/.agents/.amplicode/spring-skills/`, а в каталогах агентов (`~/.agents/skills/`, `~/.qwen/skills/`) создаются симлинки;
+- для Claude Code плагин `spring-tools@spring-tools` регистрируется через `claude plugin install`.
+
+#### Как открыть Welcome-экран вручную
+
+Если экран не появился (например, ранее стояла галка «Больше не показывать» или скилы уже частично установлены):
+
+**Search Everywhere** (двойной `Shift`) → ввести **`Spring Agent Toolkit`** → `Enter`.
 
 ### Проверка настройки Amplicode MCP
 
-Описываем
+| Агент | Что проверить |
+|---|---|
+| **Claude Code** | Файл `~/.claude/plugins/installed_plugins.json` содержит `spring-tools@spring-tools` |
+| **Codex, OpenCode, Gemini CLI, KiloCode** | В `~/.agents/skills/` есть симлинки, указывающие в `~/.agents/.amplicode/spring-skills/` |
+| **Qwen Code** | В `~/.qwen/skills/` есть симлинки, указывающие в `~/.agents/.amplicode/spring-skills/` |
+
+Если всё совпадает — Spring Agent Toolkit готов к использованию! Подробный видео обзор Spring Agent Toolkit можно посмотреть в [следующем видео](https://t.me/amplicode/313):
+
+<iframe width="720" height="405" src="https://rutube.ru/video/225693b81e69f8263ae4d4d87b17ca28/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 ## Ручная установка Spring Skills и Amplicode MCP
 
-
 ### Установка Spring Skills через скрипт
 
-Описать тут как установить через скрипт, что проверить после и сказать, что далее нужно включить MCP Server для вашего AI-агента в настройках MCP Amplicode.
+Если автоматическая установка из IDE не сработала (например, IDE не имеет прав запускать `powershell`, как в случае корпоративных политик на Windows) — запустите инсталлятор из терминала.
+
+#### macOS / Linux
+
+```bash
+curl -sSL https://raw.githubusercontent.com/Amplicode/spring-skills/refs/heads/main/install.sh | bash
+```
+
+#### Windows (PowerShell)
+
+```powershell
+Invoke-RestMethod 'https://raw.githubusercontent.com/Amplicode/spring-skills/refs/heads/main/install.ps1' | Invoke-Expression
+```
+
+Если PowerShell ругается на политику выполнения, запустите команду явно:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -Command "Invoke-RestMethod 'https://raw.githubusercontent.com/Amplicode/spring-skills/refs/heads/main/install.ps1' | Invoke-Expression"
+```
+
+Если `powershell.exe` заблокирован корпоративной политикой (ошибка `CreateProcess error=5, Отказано в доступе`), воспользуйтесь PowerShell 7 (`pwsh`):
+
+```powershell
+pwsh -NoProfile -ExecutionPolicy Bypass -Command "Invoke-RestMethod 'https://raw.githubusercontent.com/Amplicode/spring-skills/refs/heads/main/install.ps1' | Invoke-Expression"
+```
+
+Репозиторий скриптов и исходный код скилов: <https://github.com/Amplicode/spring-skills>.
+
+![Терминал с запущенным скриптом установки](img/install-script-terminal.png)
+
+#### Альтернатива: универсальный CLI `npx skills`
+
+Если на машине установлен Node.js, вместо прямого `curl`/`Invoke-RestMethod` можно воспользоваться CLI от [vercel-labs/skills](https://github.com/vercel-labs/skills) — универсальным установщиком скилов для AI-агентов. Он сам детектирует установленных агентов, создаёт симлинки в их каталоги и умеет обновлять/удалять скилы одной командой.
+
+Установить все скилы Amplicode глобально во все обнаруженные агенты:
+
+```bash
+npx skills add Amplicode/spring-skills -g
+```
+
+Установить только для конкретных агентов (пример — Claude Code + Codex + Gemini CLI):
+
+```bash
+npx skills add Amplicode/spring-skills -g -a claude-code -a codex -a gemini-cli
+```
+
+Соответствие имён агентов флагам `-a`:
+
+| Агент | Флаг `--agent` |
+|---|---|
+| Claude Code | `claude-code` |
+| Codex | `codex` |
+| OpenCode | `opencode` |
+| KiloCode | `kilo` |
+| Gemini CLI | `gemini-cli` |
+| Qwen Code | `qwen-code` |
+
+Полезные команды:
+
+```bash
+# посмотреть список скилов в репозитории, не устанавливая
+npx skills add Amplicode/spring-skills --list
+
+# обновить установленные скилы до последних версий
+npx skills update
+
+# удалить
+npx skills remove --global --skill '*'
+```
+
+Без флага `-g` скилы ставятся в текущий проект (в `.agents/skills/`, `.claude/skills/` и т.п.), с флагом `-g` — в домашние каталоги агентов, как и оригинальный `install.sh`.
+
+После установки скилов [включите Amplicode MCP Server](#включение-amplicode-mcp-server) для вашего AI-агента.
 
 ### Включение Amplicode MCP Server
 
-Перед подключением любого AI-агента необходимо запустить MCP Server:
+Запустить Amplicode MCP Server вручную можно следующим образом:
 
 1. Откройте настройки IDE: **File → Settings** (или **IntelliJ IDEA → Settings** на macOS)
 2. Перейдите в **Tools → Amplicode → MCP Server**
@@ -47,7 +148,7 @@ Spring Agent Toolkit включает два компонента: набор MC
 
 ![enable-mcp-server.png](img/enable-mcp-server.png)
 
-## Автоматическая конфигурация клиента
+#### Автоматическая конфигурация клиента
 
 Для ряда клиентов Amplicode поддерживает автоматическую настройку. Если ваш клиент присутствует в разделе **Clients Auto-Configuration**, выполните следующие действия:
 
@@ -76,7 +177,7 @@ Spring Agent Toolkit включает два компонента: набор MC
 
 ---
 
-## Ручная конфигурация
+#### Ручная конфигурация
 
 Если ваш клиент не поддерживает автоматическую настройку, воспользуйтесь ручным способом:
 
@@ -101,15 +202,15 @@ Spring Agent Toolkit включает два компонента: набор MC
 
 ---
 
-## VSCode
+##### VSCode
 
 **Поддерживает Auto-Configure: да**
 
-### Автоматически
+###### Автоматически
 
 Используйте кнопку **Auto-Configure** в панели **Tools → Amplicode → MCP Server → VSCode**.
 
-### Вручную
+###### Вручную
 
 Откройте файл конфигурации MCP для VS Code (в выпадающем списке рядом с **Auto-Configure** → **Open Client Settings File**). Расположение файла:
 
@@ -134,15 +235,15 @@ Spring Agent Toolkit включает два компонента: набор MC
 
 ---
 
-## Claude Code
+##### Claude Code
 
 **Поддерживает Auto-Configure: да**
 
-### Автоматически
+###### Автоматически
 
 Используйте кнопку **Auto-Configure** в панели **Tools → Amplicode → MCP Server → Claude Code**.
 
-### Вручную
+###### Вручную
 
 Выполните команду в терминале:
 
@@ -163,15 +264,15 @@ claude mcp list
 ```
 ---
 
-## Windsurf
+##### Windsurf
 
 **Поддерживает Auto-Configure: да**
 
-### Автоматически
+###### Автоматически
 
 Используйте кнопку **Auto-Configure** в панели **Tools → Amplicode → MCP Server → Windsurf**.
 
-### Вручную
+###### Вручную
 
 Откройте файл конфигурации MCP для Windsurf (в выпадающем списке рядом с **Auto-Configure** → **Open Client Settings File**). Расположение файла:
 
@@ -195,15 +296,15 @@ claude mcp list
 
 ---
 
-## Codex
+##### Codex
 
 **Поддерживает Auto-Configure: да**
 
-### Автоматически
+###### Автоматически
 
 Используйте кнопку **Auto-Configure** в панели **Tools → Amplicode → MCP Server → Codex**.
 
-### Вручную
+###### Вручную
 
 Откройте файл конфигурации MCP для Codex (в выпадающем списке рядом с **Auto-Configure** → **Open Client Settings File**). Расположение файла:
 
@@ -245,15 +346,15 @@ mcpServers:
 
 ---
 
-## Continue
+##### Continue
 
 **Поддерживает Auto-Configure: да**
 
-### Автоматически
+###### Автоматически
 
 Используйте кнопку **Auto-Configure** в панели **Tools → Amplicode → MCP Server → Continue**.
 
-### Вручную
+###### Вручную
 
 Откройте файл конфигурации MCP для Continue (в выпадающем списке рядом с **Auto-Configure** → **Open Client Settings File**). Расположение файла:
 
@@ -278,15 +379,15 @@ mcpServers:
 
 ---
 
-## Qwen Code
+##### Qwen Code
 
 **Поддерживает Auto-Configure: да**
 
-### Автоматически
+###### Автоматически
 
 Используйте кнопку **Auto-Configure** в панели **Tools → Amplicode → MCP Server → Qwen Code**.
 
-### Вручную
+###### Вручную
 
 Откройте файл конфигурации MCP для Qwen Code (в выпадающем списке рядом с **Auto-Configure** → **Open Client Settings File**). Расположение файла:
 
@@ -311,15 +412,15 @@ mcpServers:
 
 ---
 
-## OpenCode
+##### OpenCode
 
 **Поддерживает Auto-Configure: да**
 
-### Автоматически
+###### Автоматически
 
 Используйте кнопку **Auto-Configure** в панели **Tools → Amplicode → MCP Server → OpenCode**.
 
-### Вручную
+###### Вручную
 
 Откройте файл конфигурации MCP для OpenCode (в выпадающем списке рядом с **Auto-Configure** → **Open Client Settings File**). Расположение файла:
 
@@ -346,15 +447,15 @@ mcpServers:
 
 ---
 
-## Cline
+##### Cline
 
 **Поддерживает Auto-Configure: да**
 
-### Автоматически
+###### Автоматически
 
 Используйте кнопку **Auto-Configure** в панели **Tools → Amplicode → MCP Server → Cline**.
 
-### Вручную
+###### Вручную
 
 Откройте файл конфигурации MCP для Cline (в выпадающем списке рядом с **Auto-Configure** → **Open Client Settings File**). Расположение файла:
 
@@ -379,15 +480,15 @@ mcpServers:
 
 ---
 
-## Copilot
+##### Copilot
 
 **Поддерживает Auto-Configure: да**
 
-### Автоматически
+###### Автоматически
 
 Используйте кнопку **Auto-Configure** в панели **Tools → Amplicode → MCP Server → Coplilot**.
 
-### Вручную
+###### Вручную
 
 Откройте файл конфигурации MCP для Copilot (в выпадающем списке рядом с **Auto-Configure** → **Open Client Settings File**). Расположение файла:
 
@@ -412,15 +513,15 @@ mcpServers:
 
 ---
 
-## KiloCode
+##### KiloCode
 
 **Поддерживает Auto-Configure: да**
 
-### Автоматически
+###### Автоматически
 
 Используйте кнопку **Auto-Configure** в панели **Tools → Amplicode → MCP Server → KiloCode**.
 
-### Вручную
+###### Вручную
 
 Откройте файл конфигурации MCP для KiloCode (в выпадающем списке рядом с **Auto-Configure** → **Open Client Settings File**). Расположение файла:
 
@@ -445,7 +546,7 @@ mcpServers:
 
 ---
 
-## Cursor
+##### Cursor
 
 **Поддерживает Auto-Configure: нет**
 
@@ -473,7 +574,7 @@ mcpServers:
 
 ---
 
-## Gemini CLI
+###### Gemini CLI
 
 **Поддерживает Auto-Configure: нет**
 
@@ -498,7 +599,7 @@ mcpServers:
 
 ---
 
-## Veai
+##### Veai
 
 **Поддерживает Auto-Configure: нет**
 
@@ -521,7 +622,7 @@ mcpServers:
 
 ---
 
-## KodaCode
+##### KodaCode
 
 **Поддерживает Auto-Configure: нет**
 
@@ -544,7 +645,7 @@ mcpServers:
 
 ---
 
-## Проверка подключения
+#### Проверка подключения
 
 После настройки любого клиента убедитесь в корректной работе MCP Server:
 
@@ -552,7 +653,7 @@ mcpServers:
 2. В вашем AI-клиенте проверьте, что инструменты Amplicode доступны (обычно отображаются как `amplicode/*` или `mcp__amplicode__*`)
 3. Выполните тестовый запрос, например: _«Покажи структуру моего Spring-проекта»_ или _«Предоставь список инструментов Amplicode MCP»_
 
-## Устранение неполадок
+#### Устранение неполадок
 
 | Проблема | Решение |
 |----------|---------|
