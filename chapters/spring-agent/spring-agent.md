@@ -1,5 +1,5 @@
 ---
-title: Spring Agent — подключение к AI-агентам
+title: Spring Agent Toolkit — подключение к AI-агентам
 weight: 5
 ---
 
