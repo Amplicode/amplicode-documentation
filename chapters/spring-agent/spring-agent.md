@@ -20,7 +20,7 @@ Spring Agent Toolkit включает два компонента: набор MC
 
 ## Рекомендуемая установка Spring Skills и Amplicode MCP
 
-При запуске IntelliJ IDEA с плагином [Amplicode](https://amplicode.ru/download/) автоматически открывается Welcome-экран Spring Agent Toolkit, если:
+При запуске IDE с плагином [Amplicode](https://amplicode.ru/download/) автоматически открывается Welcome-экран Spring Agent Toolkit, если:
 
 - в системе обнаружен хотя бы один из поддерживаемых AI-агентов;
 - скилы для него ещё не установлены;
