@@ -60,6 +60,7 @@ Amplicode не будет доступна в устаревших версия�
 
 | IntelliJ IDEA                          | Amplicode                                                                                                                 |
 |----------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| 2026.2.X                               | <a href="https://amplicode.ru/Amplicode/amplicode-2026.1.5-262.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
 | 2026.1.X                               | <a href="https://amplicode.ru/Amplicode/amplicode-2026.1.5-261.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
 | 2025.3.X                               | <a href="https://amplicode.ru/Amplicode/amplicode-2026.1.5-253.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
 | 2025.2.X                               | <a href="https://amplicode.ru/Amplicode/amplicode-2025.3.2-252.zip" target="_blank" rel="noopener noreferrer">Скачать</a> |
